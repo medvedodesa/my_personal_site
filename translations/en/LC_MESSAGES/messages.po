@@ -1,0 +1,107 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-24 14:42+0300\n"
+"PO-Revision-Date: 2021-05-24 14:42+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: templates/index.html:37 templates/index.html:52
+msgid "Обо мне"
+msgstr "About me"
+
+#: templates/index.html:39 templates/index.html:73
+msgid "Мой опыт"
+msgstr "Expirience"
+
+#: templates/index.html:40
+msgid "Работы"
+msgstr "Work"
+
+#: templates/index.html:41
+msgid "Контакт"
+msgstr "Contact"
+
+#: templates/index.html:55
+msgid "Технологии"
+msgstr "Technology stack"
+
+#: templates/index.html:58
+msgid "Быстрые и асинхронные задачи"
+msgstr "Fast and asynchronous tasks"
+
+#: templates/index.html:62
+msgid "Базовые знания JS"
+msgstr "Basic knowledge of JS"
+
+#: templates/index.html:63
+msgid "Работа с AWS"
+msgstr "Working with AWS"
+
+#: templates/index.html:67
+msgid ""
+"На данный момент я работаю в компании, занимающейся анализом данных. "
+"Примеры из моих работ можно посмотреть"
+msgstr ""
+"I am currently working for a data analysis company."
+"Examples from my work can be viewed"
+#: templates/index.html:68
+msgid "здесь"
+msgstr "here"
+
+#: templates/index.html:75
+msgid ""
+"Я работаю с веб-приложениями, которым важна асинхронность и скорость "
+"работы."
+msgstr ""
+"I work with web applications where asynchrony and speed are important"
+"work."
+
+#: templates/index.html:77
+msgid ""
+"Принимал участие в создании ядра приложений для SEO-компаний, собирающей "
+"и анализирующей информацию по доменам и доменным зонам."
+msgstr ""
+"Took part in the creation of an application core for SEO companies, collecting"
+"and analyzing information on domains and domain zones."
+
+#: templates/index.html:79
+msgid "Опыт создания CRM, программ учёта."
+msgstr "Experience in creating CRM, accounting programs."
+
+#: templates/index.html:80
+msgid "Работа с API"
+msgstr "Working with API"
+
+#: templates/index.html:81
+msgid "Создание бекэнда приложений"
+msgstr "Creating an application backend"
+
+#: templates/index.html:82
+msgid "Создание интернет-магазинов, лендингов - серверная часть"
+msgstr "Creation of online stores, landing pages - server side"
+
+#: templates/index.html:88
+msgid "Контакты"
+msgstr "Contacts"
+
+#: templates/index.html:104
+msgid "Мои работы"
+msgstr "My works"
+
+#: templates/index.html:106
+msgid "В процессе заполнения"
+msgstr "In the process of filling"
+

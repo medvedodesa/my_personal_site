@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Medvedodesa - Python Engeneer</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="static/assets/css/main.css"/>
+    <link rel="icon" type="image/png" href="static/favicons/16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="static/favicons/32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="static/favicons/48x48.png" sizes="48x48">
+    <noscript>
+        <link rel="stylesheet" href="static/assets/css/noscript.css"/>
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <span class="icon brands fa-python"></span>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <h1 font-size="5em">Medved Odesa</h1>
+                <p>Backend Python Engeneer
+                </p>
+
+            </div>
+        </div>
+        <nav>
+            <ul>
+
+                <li><a href="#apply">{{ _('Обо мне') }}</a></li>
+
+                <li><a href="#expipience">{{ _('Мой опыт') }}</a></li>
+                <li><a href="#work">{{ _('Работы') }}</a></li>
+                <li><a href="#contact">{{ _('Контакт') }}</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Apply -->
+        <article id="apply">
+            <h2 class="major">{{ _('Обо мне') }}</h2>
+            <span class="image main"><img src="static/images/me.jpg" alt=""/></span>
+
+            <h3>{{ _('Технологии') }}</h3>
+            <ul>
+                <li>Python Framework: Flask, Sanic</li>
+                <li>{{ _('Быстрые и асинхронные задачи') }}</li>
+                <li>SQL (MySQL, Postgress)</li>
+                <li>noSQL (Redis, RQ)</li>
+                <li>Celery, Flower</li>
+                <li>{{ _('Базовые знания JS') }}</li>
+                <li>{{ _('Работа с AWS') }}</li>
+                {#                <li></li>#}
+            </ul>
+
+            <p>{{ _('На данный момент я работаю в компании, занимающейся анализом данных. Примеры из моих работ можно посмотреть') }}
+                <a href="#work"> {{ _('здесь') }}</a>.</p>
+        </article>
+
+        <!-- submitajob -->
+        <article id="expipience">
+            <h2 class="major">{{ _('Мой опыт') }}</h2>
+            <span class="image main"><img src="static/images/pic02.jpg" alt=""/></span>
+            <h3>{{ _('Я работаю с веб-приложениями, которым важна асинхронность и скорость работы.') }}</h3>
+            <ul>
+                <li>{{ _('Принимал участие в создании ядра приложений для SEO-компаний, собирающей и анализирующей информацию по доменам и доменным зонам.') }}
+                </li>
+                <li>{{ _('Опыт создания CRM, программ учёта.') }}</li>
+                <li>{{ _('Работа с API') }}</li>
+                <li>{{ _('Создание бекэнда приложений') }}</li>
+                <li>{{ _('Создание интернет-магазинов, лендингов - серверная часть') }}</li>
+            </ul>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+            <h2 class="major">{{ _('Контакты') }}</h2>
+            <span class="image main"><img src="static/images/pic03.jpg" alt=""/></span>
+            <a href="mailto:medved.odesa@gmail.com" class="icon solid fa-envelope-square"><span
+                    class="label">Email</span>
+                <b>&nbsp;&nbsp;&nbsp;medved.odesa@gmail.com</b></a><br>
+            <a href="https://github.com/medvedodesa" class="icon brands fa-github"><span class="label">GitHub</span><b>&nbsp;&nbsp;&nbsp;github.com/medvedodesa</b></a><br>
+            <a href="https://gitlab.com/medvedodesa" class="icon brands fa-gitlab"><span class="label">GitLab</span><b>&nbsp;&nbsp;&nbsp;gitlab.com/medvedodesa</b></a><br>
+
+            <a href="https://t.me/medvedodesa" class="icon brands fa-telegram-plane"><span class="label">Telegram</span><b>&nbsp;&nbsp;&nbsp;@Medvedodesa</b></a><br>
+            <a href="" class="icon brands fa-skype"><span class="label">Skype</span><b>&nbsp;&nbsp;&nbsp;--</b></a><br>
+            <br>
+
+        </article>
+
+        <!-- Elements -->
+        <article id="work">
+            <h2 class="major">{{ _('Мои работы') }}</h2>
+            <span class="image main"><img src="static/images/pic01.jpg" alt=""/></span>
+            <p align="center">{{ _('В процессе заполнения') }}</p>
+            {#            <a href="https://github.com/medvedodesa" class="icon brands fa-github"><span class="label">GitHub</span><b>&nbsp;&nbsp;&nbsp;github.com/medvedodesa</b></a><br>#}
+            {#            <a href="https://gitlab.com/medvedodesa" class="icon brands fa-gitlab"><span class="label">GitLab</span><b>&nbsp;&nbsp;&nbsp;gitlab.com/medvedodesa</b></a><br>#}
+            {##}
+            {#            <a href="https://github.com/JobCI" class="icon brands fa-telegram-plane"><span class="label">Telegram</span><b>&nbsp;&nbsp;&nbsp;@Medvedodesa</b></a><br>#}
+            {#            <a href="https://github.com/JobCI" class="icon brands fa-skype"><span class="label">Skype</span><b>&nbsp;&nbsp;&nbsp;--</b></a><br>#}
+            <br>
+
+        </article>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">Powered by Flask &copy; 2021 Medvedodesa. <a
+                href="https://github.com/medvedodesa">GitHub</a></p>
+    </footer>
+
+</div>
+
+<!-- BG -->
+<div id="bg"></div>
+
+<!-- Scripts -->
+<script src="static/assets/js/jquery.min.js"></script>
+<script src="static/assets/js/browser.min.js"></script>
+<script src="static/assets/js/breakpoints.min.js"></script>
+<script src="static/assets/js/util.js"></script>
+<script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
