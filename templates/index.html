@@ -29,22 +29,19 @@
                 <h1 font-size="5em">Medved Odesa</h1>
                 <p>Backend Python Engeneer
                 </p>
+                    {% if g.locale == 'ru' %}
+                        <div><a href="{{ url_for('index', lang='en') }}" class="button small">English</a></div>
 
+                    {% else %}
+                        <div><a href="{{ url_for('index', lang='ru') }}" class="button small">Russian</a></div>
 
-<select name= colours method="GET" action="/">
-    {% for b in langs %}
-    <option value= "{{b}}" SELECTED>{{b}}</option>"
-    {% endfor %}
-</select>
-
-</select>
+                    {% endif %}
             </div>
         </div>
         <nav>
             <ul>
 
                 <li><a href="#apply">{{ _('Обо мне') }}</a></li>
-
                 <li><a href="#expipience">{{ _('Мой опыт') }}</a></li>
                 <li><a href="#work">{{ _('Работы') }}</a></li>
                 <li><a href="#contact">{{ _('Контакт') }}</a></li>

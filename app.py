@@ -1,14 +1,16 @@
 from flask import Flask
 from flask import request
-from flask import session
-from flask import render_template, redirect, url_for, abort, g
+from flask import render_template, g
 from flask import send_from_directory
-from flask_babel import Babel, get_locale
+from flask_babel import Babel, get_locale, refresh
+
 
 app = Flask(__name__)
-# ...
+
 babel = Babel(app)
 LANGUAGES = ['en', 'ru']
+lang=str(' ')
+
 
 @app.before_request
 def before_request():
@@ -17,22 +19,25 @@ def before_request():
 
 @babel.localeselector
 def get_locale():
+    refresh()
+    global lang
+    if lang=='ru' or lang=='ru#':
+        return 'ru'
+    else:
+        return 'en'
 
-    return request.accept_languages.best_match(LANGUAGES)
-#     return 'en'
 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-
-    a=g.locale
-    return render_template('index.html', langs=LANGUAGES)
+    global lang
+    lang=request.args.get('lang')
+    g.locale = get_locale()
+    return render_template('index.html')
 
 @app.route('/static/<path:filename>')
 def send_js(filename):
     return send_from_directory(filename, static_url_path='static')
 
 if __name__ == '__main__':
-
-
     app.run()
