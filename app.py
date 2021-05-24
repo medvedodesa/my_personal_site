@@ -21,7 +21,7 @@ def before_request():
 def get_locale():
     refresh()
     global lang
-    if lang=='ru' or lang=='ru#':
+    if lang=='ru':
         return 'ru'
     else:
         return 'en'
